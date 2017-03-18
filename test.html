@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Contnet-Type" content="text/html";charset="utf-8">
+		<title>myzhuzhu</title>
+		<link rel="stylesheet" type="text/css" href="test.css">
+		<style type="text/css">
+			h1{	/*嵌入式css*/
+				font-size: normal;
+				color: blue;
+			}
+			.danxiao{	/*类选择器*/
+				/*font-size: 20px;*/
+				color: green;
+			}
+			.ruo{
+				font-size: 25px;
+			}
+			p>span{
+				border: 1px solid blue;
+			}
+			table tr td,th{border: 1px solid #000;}
+		</style>
+		<script type="text/javascript"></script>
+	</head>
+
+
+	<body>
+		<h1>勇气</h1>
+		<p>三年级时，我还是一个<span class="danxiao">胆小如鼠的小女孩</span>，上课从来不敢回答老师提出的问题，生怕回答错了老师会批评我。就一直没有这个<span class="danxiao ruo"><strong><em>勇气</em></strong></span>来回答老师提出的问题。学校举办的活动我<strong>也没勇气参加。</strong></p>
+		<hr/>
+		<p>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的问题，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，<span class="ruo">就我没有举手。</span>
+		<p><address>猪猪的家在<a href="http://baike.baidu.com/link?url=eQTwIblCvBNQ4DO4WEER0WxiaoKG626nzyQsZ-uN_MP_eeieCJO3dc9m1IheN5MSjOEXBY2cSxB020vA15hqKD9-4gD7Brpfkj9EwDyAlOu" target="_blank" title="百度百科">江门恩平</a></address>
+		<address>
+			本文的作者：<a href="http://www.baidu.com" title="百度">lilian</a>
+		</address>
+
+
+		                        <!-- 以下为表单 -->
+		<form>
+			帐号<input  type="text" name="name" value="猪猪名">
+			<br>
+			密码<input  type="password" name="password">
+			<br>
+			<textarea rows="3" cols="100" placeholder="对我们故事的感言"></textarea>
+			<!-- placeholder 表示框格内虚字-->
+			<br>
+			你对他们的看法如何？
+			<input type="radio" name="kanfa" checked="checked">赞同
+			<input type="radio" name="kanfa">不赞同
+			<br>
+			你认为他们为什么相爱呢？
+			<input type="checkbox" value="1" name="checkbox1" checked="checked">包容
+			<input type="checkbox" value="2" name="checkbox2">美丽
+			<input type="checkbox" value="3" name="checkbox3">帅气
+			<input type="checkbox" value="4" name="checkbox4">阳光
+			<br>
+			<select >                  <!-- multiple="multiple"  表示可多选 -->
+				<option value="baorong">包容</option>
+				<option value="meili">美丽</option>
+				<option value="shuaiqi">帅气</option>
+				<option value="yangguang">阳光</option>
+			</select>
+			<input type="submit" name="确定" name="submit">
+			<input type="reset" name="重置" name="reset">
+		</form>
+
+		                             <!-- 以下为表格 -->
+		<div id="无序">	
+			<ul>
+				<li>初遇</li>
+				<li>相熟</li>
+			</ul>
+		</div>
+		<div id="有序">
+			<p>注意以下列表与上述列表区别：</p>
+			<ol>
+				<li>初遇</li>
+				<li>相熟</li>
+				<li>相知</li>
+			</ol>
+		</div>
+		<table summary="我和猪猪的相遇相知相熟">
+		<caption>两只猪的故事</caption>
+			<tbody>
+				<tr>
+					<td>初遇</td>
+					<td>相熟</td>
+					<td>相知</td>
+				</tr>
+				<tr>
+					<td>2015.9.3</td>
+					<td>&nbsp2015.10</td>
+					<td>&nbsp2015.11</td>
+				</tr>
+			</tbody>
+		</table>
+		<img src="E:\计算机\前端\IMGP7070.JPG" alt="my猪猪" title="我的猪猪">
+	</body>
+</html>
