@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta http-equiv="Contnet-Type" content="text/html";charset="utf-8">
+		<meta http-equiv="Contnet-Type" content="text/html"; charset="utf-8"/>
 		<title>myzhuzhu</title>
 		<link rel="stylesheet" type="text/css" href="test.css">
 		<style type="text/css">
@@ -16,9 +16,12 @@
 			.ruo{
 				font-size: 25px;
 			}
-			p>span{
+			p>span:hover{	/*:hover{}为伪选择器;*/
 				border: 1px solid blue;
 			}
+			p span{color:red;}
+			p .danxiao{color: green;}
+			/*#first{color: green;}*/
 			table tr td,th{border: 1px solid #000;}
 		</style>
 		<script type="text/javascript"></script>
@@ -29,7 +32,7 @@
 		<h1>勇气</h1>
 		<p>三年级时，我还是一个<span class="danxiao">胆小如鼠的小女孩</span>，上课从来不敢回答老师提出的问题，生怕回答错了老师会批评我。就一直没有这个<span class="danxiao ruo"><strong><em>勇气</em></strong></span>来回答老师提出的问题。学校举办的活动我<strong>也没勇气参加。</strong></p>
 		<hr/>
-		<p>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的问题，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，<span class="ruo">就我没有举手。</span>
+		<p>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的问题，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着：<span id="first">"我来，我来。"</span>我环顾了四周，<span class="ruo">就我没有举手。</span>
 		<p><address>猪猪的家在<a href="http://baike.baidu.com/link?url=eQTwIblCvBNQ4DO4WEER0WxiaoKG626nzyQsZ-uN_MP_eeieCJO3dc9m1IheN5MSjOEXBY2cSxB020vA15hqKD9-4gD7Brpfkj9EwDyAlOu" target="_blank" title="百度百科">江门恩平</a></address>
 		<address>
 			本文的作者：<a href="http://www.baidu.com" title="百度">lilian</a>
@@ -95,6 +98,6 @@
 				</tr>
 			</tbody>
 		</table>
-		<img src="E:\计算机\前端\IMGP7070.JPG" alt="my猪猪" title="我的猪猪">
+		<img src="D:\Git\space\IMGP7070.JPG" alt="my猪猪" title="我的猪猪">
 	</body>
 </html>
